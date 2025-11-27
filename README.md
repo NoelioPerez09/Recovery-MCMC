@@ -1,6 +1,6 @@
 # Recovery-MCMC
 ## Overview
-This project forms part of the larger DEMOGORGN project with the objective to create a map <span>🗺️</span> of the Bed Topography of the entirety of Antartica <span>&#x1f1e6;&#x1f1f6;</span> that is both as realistically rough and detailed as the Topographies produced by a Sequential Gaussian Simulation (SGS) and that also obeys the physical principles of conservation of mass (via ice flux residuals) as much as BedMachine3 or ideally more. Here specifically, we're mapping the Topography of the [Recovery Ice Stream](https://doi.org/10.1002/2017JF004409) <span>🌊🥶️</span> one of Antarctica’s longest and fastest glaciers, sliding roughly 35 billion tons of ice into the ocean each year.
+This project forms part of the larger DEMOGORGN project with the objective to create a map <span>&#128506;&#65039;</span> of the Bed Topography of the entirety of Antartica <span>&#x1f1e6;&#x1f1f6;</span> that is both as realistically rough and detailed as the Topographies produced by a Sequential Gaussian Simulation (SGS) and that also obeys the physical principles of conservation of mass (via ice flux residuals) as much as BedMachine3 or ideally more. Here specifically, we're mapping the Topography of the [Recovery Ice Stream](https://doi.org/10.1002/2017JF004409) <span>&#127754;</span> <span>&#129398;</span> one of Antarctica’s longest and fastest glaciers <span>&#129482;</span> <span>&#9889;</span>, sliding roughly 35 billion tons of ice into the ocean each year.
 
 
 ## Initial Topographies
