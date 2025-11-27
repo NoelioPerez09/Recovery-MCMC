@@ -1,11 +1,13 @@
 # Recovery-MCMC
-## Description
-Bed Topography mapping of the Recovery Ice Stream using Sequential Gaussian Simulation (SGS) and the Metropolis–Hastings (Markov Chain Monte Carlo) algorithm.
+## Overview
+This project forms part of the larger DEMOGORGN project with the objective to create a map of the Bed Topography of the entirety of Antartica :aq: that is both as realistically rough and detailed
+as the Topographies produced by a Sequential Gaussian Simulation (SGS) and that also obeys the physical principles of conservation of mass (via ice flux residuals) as much as BedMachine3 or
+ideally more. Here specifically, we're mapping the Topography of the [Recovery Ice Stream](https://doi.org/10.1002/2017JF004409) one of Antarctica’s longest and fastest glaciers, sliding roughly 35 billion tons of ice into the ocean each year.
 
-## Note
-Please download the images if you want to see them in fullscreen, don't use the "Open image in new tab" as GitHub doesn't handle .svg visualization in fullscreen well.
 
 ## Initial Topographies
+Please download the images if you want to see them in fullscreen. Do not use the "Open image in new tab" as GitHub doesn't handle .svg visualization in fullscreen well.
+
 ![BedMachine](./figures/bedmachine.svg)
 
 Topography of BedMachine3, the current benchmark for ice flux divergence loss and mass conservation residuals.
@@ -28,8 +30,8 @@ Note: The following instructions are intended for UNIX-based Operating Systems (
 1. Clone the repository using ```git clone https://github.com/NoelioPerez09/Recovery-MCMC.git```.
 2. Navigate to the downloaded directory using ```cd Recovery-MCMC```.
 3. Create a ```venv``` virtual environment using ```python -m venv venv``` and activate it using ```source venv/bin/activate```.
-4. Install all required libraries using ```pip install -r requirements.txt```
-5. After this you can either use ```jupyter lab``` to use Jupyter's IDE or use any IDE of your liking. I personally used [Visual Studio Code](https://code.visualstudio.com/), but any IDE
+4. Install all required libraries using ```pip install -r requirements.txt```.
+5. After this, you can either run ```jupyter lab``` to use Jupyter's IDE or use any IDE of your liking. I personally used [Visual Studio Code](https://code.visualstudio.com/), but any IDE
 that can run Python and Jupyter Notebook files should work.
 
 
