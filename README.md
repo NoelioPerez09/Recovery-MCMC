@@ -1,6 +1,6 @@
 # Recovery-MCMC
 ## Overview
-This project forms part of the larger DEMOGORGN project with the objective to create a map <span>&#128506;&#65039;</span> of the Bed Topography <span>&#129704;</span> of the entirety of Antartica <span>&#x1f1e6;&#x1f1f6;</span> that is both as realistically rough and detailed as the Topographies produced by a Sequential Gaussian Simulation (SGS) [1] and that also obeys the physical principles of conservation of mass (via ice flux residuals) as much as BedMachine3 or ideally more. Here specifically, we're mapping the Topography of the Recovery Ice Stream <span>&#127754;</span> <span>&#129398;</span> [2] one of Antarctica’s longest and fastest glaciers <span>&#129482;</span> <span>&#9889;</span>, sliding roughly 35 billion tons of ice into the ocean each year. The method used is a Metropolis–Hastings Markov Chain Monte Carlo (MCMC) algorithm <span>&#129518;</span> [3] with two parts (large scale and small scale), taking the produced SGS realization as input in order to start with a realistically rough and detailed topography and decrease its ice flux residuals as much as possible <span>&#128201;</span> to match the conservation of mass similar to BedMachine3 [4].
+This project was made with the objective of creating a map <span>&#128506;&#65039;</span> of the Bed Topography <span>&#129704;</span> of an Antarctic Glacier <span>&#x1f1e6;&#x1f1f6;</span> that is both as realistically rough and detailed as the Topographies produced by a Sequential Gaussian Simulation (SGS) [1] and that also obeys the physical principles of conservation of mass (via ice flux residuals) as much as BedMachine3 or ideally more. Here specifically, we're mapping the Topography of the Recovery Ice Stream <span>&#127754;</span> <span>&#129398;</span> [2] one of Antarctica’s longest and fastest glaciers <span>&#129482;</span> <span>&#9889;</span>, sliding roughly 35 billion tons of ice into the ocean each year. The method used is a Metropolis–Hastings Markov Chain Monte Carlo (MCMC) algorithm <span>&#129518;</span> [3] with two parts (large scale and small scale), taking the produced SGS realization as input in order to start with a realistically rough and detailed topography and decrease its ice flux residuals as much as possible <span>&#128201;</span> to match the conservation of mass similar to BedMachine3 [4].
 
 
 ## Initial Topographies
@@ -57,7 +57,7 @@ are the large scale chains and the ```trial_11```, ```trial_12```, ... , ```tria
 * ```requirements.txt``` Contains a list of all python libraries (package dependencies) and their version used the workflow
 
 # Tutorial & Reproducibility
-Jupyter notebooks (```.ipynb``` files) are order 1-5 to show the order to run to replicate results. Simply follow the instructions of each notebook and change the directories appropriately
+Jupyter notebooks (```.ipynb``` files) are ordered 1-5 to show the order to run to replicate results. Simply follow the instructions of each notebook and change the directories appropriately
 depending on your local environment. The previous execution times are according to my own specs are specific times could vary significally depending on your computer specs. My computer specs:
 * CPU: AMD Ryzen 7 9800X3D, 8 Cores, 16 Threads, 5.2 GHz
 * RAM: 64 GB DDR5 6000 MT/s CL30
