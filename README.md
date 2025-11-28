@@ -14,6 +14,13 @@ Topography of BedMachine3, the current benchmark for ice flux divergence loss an
 
 Topography generated from a Sequential Gaussian Simulation [1], high level of detail and high resolution textures compared to BedMachine3 [4], but does not abide by the law of mass conversation. Used as a starting point for the large scale MCMC simulation.
 
+![BedMap3](./figures/radar.svg)
+Radar data and Topography, both from BedMap3 [5].
+
+![Velocity](./figures/velocity.svg)
+Surface velocity magnitude of study area [6]. Note: Velocities values were cut to get rid of the slessor ice stream velocity (not part of my study area), see ```1. Data Loading.ipyn``` for
+more details of this.
+
 ## MCMC Topography 
 ![MCMC](./figures/mcmc.svg)
 Small scale chain Bed Topography output. Both realistically rough and considerably lower loss than SGS.
@@ -21,9 +28,6 @@ Small scale chain Bed Topography output. Both realistically rough and considerab
 ![Loss Function Graph](./figures/loss.svg)
 Loss graph of two large scale chains and eight small scale chains. Large scale chains ran for 7 million iterations and small scale chains ran for 100K iterations. Dotted red line shows BedMachine3's loss [4].
 
-## Other Plots
-![BedMap3](./figures/bedmap.svg)
-Radar data and Topography, both from BedMap3 [5].
 
 # Installation
 
@@ -41,6 +45,7 @@ that can run Python and Jupyter Notebook files should work.
 * ```beds``` Contains the two large scale and eight small scale chains bed realizations.
 * ```data``` directory contains Antarctica outline image used in poster and the SGS Bed data.
 * ```figures``` directory contains all figures used in the poster plus a png and pdf version of the poster.
+* ```gstatsMCMC``` Important Python files in order to process raw data and contains backend of the MCMC algorithm.
 * ```trial``` directory contains results of large and small scale chains, along with parameters used and data weights in the large scale chains. Note that ```trial_1``` and ```trial_2```
 are the large scale chains and the ```trial_11```, ```trial_12```, ... , ```trial_24``` are the small scale chains 1-4 (second number) for the 1st or 2nd large scale chain (first number).
 * ```1. Data Loading.ipyn``` Generates the ```Recovery.csv``` with all the data needed for SGS and the MCMC algorithm. Takes approximately 1-2 hours to run.
@@ -68,5 +73,8 @@ Original MCMC method creator: [Niya Shao](https://github.com/NiyaShao/geostatist
 1. MacKie, E., Field, M., Wang, L., Schoedl, N., & Hibbs, M. (2022). GStatSim. Sequential Gaussian Simulation. https://gatorglaciology.github.io/gstatsimbook/4_Sequential_Gaussian_Simulation.html
 2. Dow, C. F., Werder, M. A., Babonis, G., Nowicki, S., Walker, R. T., Csatho, B., & Morlighem, M. (2018). Dynamics of active subglacial lakes in recovery ice stream. Journal of Geophysical Research Earth Surface, 123(4), 837–850. https://doi.org/10.1002/2017jf004409
 3. Shao, N., MacKie, E., Field, M., & McCormack, F. (2025). A Markov chain Monte Carlo approach for geostatistically simulating mass-conserving subglacial topography. Journal of Glaciology. https://doi.org/10.31223/x5sb2r
-4. Morlighem et al., (2025). MEASURES BedMachine Antarctica, Version 3. https://nsidc.org/data/nsidc-0756/versions/3
+4. Morlighem, M. 2022. MEaSUREs BedMachine Antarctica, Version 3. Boulder, Colorado USA. NASA National Snow and Ice Data Center Distributed Active Archive Center.
+https://doi.org/10.5067/FPSU0V1MWUB6.
 5. Pritchard et al., (2025). Bedmap3 updated ice bed, surface and thickness gridded datasets for Antarctica. Scientific Data, 12(1), 414. https://doi.org/10.1038/s41597-025-04672-y
+6. Rignot, E., J. Mouginot, & B. Scheuchl. (2017). Measures insar-based Antarctica Ice Velocity Map, version 2: National snow and ice data center. MEaSUREs InSAR-Based Antarctica Ice Velocity Map, Version 2. https://doi.org/10.5067/D7GK8F5J8M8R
+7. Morlighem, M., E. Rignot, T. Binder, D. D. Blankenship, R. Drews, G. Eagles, O., et al. 2020. Deep glacial troughs and stabilizing ridges unveiled beneath the margins of the Antarctic ice sheet, Nature Geoscience. 13. 132-137. https://doi.org/10.1038/s41561-019-0510-8
