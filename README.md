@@ -1,6 +1,6 @@
 # Recovery-MCMC
 ## Overview
-This project forms part of the larger DEMOGORGN project with the objective to create a map <span>&#128506;&#65039;</span> of the Bed Topography <span>&#129704;</span> of the entirety of Antartica <span>&#x1f1e6;&#x1f1f6;</span> that is both as realistically rough and detailed as the Topographies produced by a Sequential Gaussian Simulation (SGS) [1] and that also obeys the physical principles of conservation of mass (via ice flux residuals) as much as BedMachine3 or ideally more. Here specifically, we're mapping the Topography of the Recovery Ice Stream <span>&#127754;</span> <span>&#129398;</span> one of Antarctica’s longest and fastest glaciers <span>&#129482;</span> <span>&#9889;</span>, sliding roughly 35 billion tons of ice into the ocean each year. The method used is a Metropolis–Hastings Markov Chain Monte Carlo (MCMC) algorithm <span>&#129518;</span> with two parts (large scale and small scale), taking the produced SGS realization as input in order to start with a realistically rough and detailed topography and decrease its ice flux residuals as much as possible <span>&#128201;</span> to match the conservation of mass similar to BedMachine.
+This project forms part of the larger DEMOGORGN project with the objective to create a map <span>&#128506;&#65039;</span> of the Bed Topography <span>&#129704;</span> of the entirety of Antartica <span>&#x1f1e6;&#x1f1f6;</span> that is both as realistically rough and detailed as the Topographies produced by a Sequential Gaussian Simulation (SGS) [1] and that also obeys the physical principles of conservation of mass (via ice flux residuals) as much as BedMachine3 or ideally more. Here specifically, we're mapping the Topography of the Recovery Ice Stream <span>&#127754;</span> <span>&#129398;</span> [2] one of Antarctica’s longest and fastest glaciers <span>&#129482;</span> <span>&#9889;</span>, sliding roughly 35 billion tons of ice into the ocean each year. The method used is a Metropolis–Hastings Markov Chain Monte Carlo (MCMC) algorithm <span>&#129518;</span> [3] with two parts (large scale and small scale), taking the produced SGS realization as input in order to start with a realistically rough and detailed topography and decrease its ice flux residuals as much as possible <span>&#128201;</span> to match the conservation of mass similar to BedMachine3 [4].
 
 
 ## Initial Topographies
@@ -15,10 +15,10 @@ Topography of BedMachine3, the current benchmark for ice flux divergence loss an
 Topography generated from a Sequential Gaussian Simulation, high level of detail and high resolution textures compared to BedMachine3, but does not abide by the law of mass conversation. Used as a starting point for the large scale MCMC simulation. 
 
 ## MCMC Topography 
-![MCMC](./figures/Placeholder_image1.png)
+![MCMC](./figures/mcmc.svg)
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-![Loss Function Graph](./figures/Placeholder_image.png)
+![Loss Function Graph](./figures/loss.svg)
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 # Installation
@@ -36,7 +36,14 @@ that can run Python and Jupyter Notebook files should work.
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 ## Poster
-![Full Poster](./figures/poster.svg)
+![Full Poster](./figures/poster.png)
 
-## Acknowledgments and Sources
+## Acknowledgments
+
+
+## Sources
 [1] MacKie, E., Field, M., Wang, L., Schoedl, N., & Hibbs, M. (2022). GStatSim. Sequential Gaussian Simulation. https://gatorglaciology.github.io/gstatsimbook/4_Sequential_Gaussian_Simulation.html
+[2] Dow, C. F., Werder, M. A., Babonis, G., Nowicki, S., Walker, R. T., Csatho, B., & Morlighem, M. (2018). Dynamics of active subglacial lakes in recovery ice stream. Journal of Geophysical Research Earth Surface, 123(4), 837–850. https://doi.org/10.1002/2017jf004409
+[3] Shao, N., MacKie, E., Field, M., & McCormack, F. (2025). A Markov chain Monte Carlo approach for geostatistically simulating mass-conserving subglacial topography. Journal of Glaciology. https://doi.org/10.31223/x5sb2r
+[4] Morlighem et al., (2025). MEASURES BedMachine Antarctica, Version 3. https://nsidc.org/data/nsidc-0756/versions/3
+[5] Pritchard et al., (2025). Bedmap3 updated ice bed, surface and thickness gridded datasets for Antarctica. Scientific Data, 12(1), 414. https://doi.org/10.1038/s41597-025-04672-y
