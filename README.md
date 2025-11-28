@@ -44,7 +44,7 @@ that can run Python and Jupyter Notebook files should work.
 
 * ```beds``` Contains the two large scale and eight small scale chains bed realizations. For the small scale chain (those with two digits) The first digit of filename means that is coming from either the first or second large scale chain output and the second digit is in what iterations it was ran from. 1 for 7e6, 2 for 6e6, 3 for 5e6, and 4 for 4e6.
 and the second digit
-* ```data``` directory contains Antarctica outline image used in poster and the SGS Bed data.
+* ```extras``` directory contains Antarctica outline image used in poster and the SGS Bed data.
 * ```figures``` directory contains all figures used in the poster plus a png and pdf version of the poster.
 * ```gstatsMCMC``` Important Python files in order to process raw data and contains backend of the MCMC algorithm.
 * ```trial``` directory contains results of large and small scale chains, along with parameters used and data weights in the large scale chains. Note that ```trial_1``` and ```trial_2```
@@ -69,6 +69,7 @@ depending on your local environment. The previous execution times are according 
 
 ## Acknowledgments
 Original MCMC method creator: [Niya Shao](https://github.com/NiyaShao/geostatisticalMCMC) and MCMC paper [3].
+![Glaciology Logo](extras/gator_lab.png)
 
 ## Sources
 1. MacKie, E., Field, M., Wang, L., Schoedl, N., & Hibbs, M. (2022). GStatSim. Sequential Gaussian Simulation. https://gatorglaciology.github.io/gstatsimbook/4_Sequential_Gaussian_Simulation.html
