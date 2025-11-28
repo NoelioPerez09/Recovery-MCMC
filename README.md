@@ -69,6 +69,7 @@ depending on your local environment. The previous execution times are according 
 
 ## Acknowledgments
 Original MCMC method creator: [Niya Shao](https://github.com/NiyaShao/geostatisticalMCMC) and MCMC paper [3].
+<img src="extras/gator_lab.png" alt="Glaciology Logo" width="150"/>
 ![Glaciology Logo](extras/gator_lab.png)
 
 ## Sources
