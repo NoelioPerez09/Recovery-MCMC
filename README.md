@@ -26,7 +26,7 @@ more details of this.
 Small scale chain Bed Topography output. Both realistically rough and considerably lower loss than SGS.
 
 ![Loss Function Graph](./figures/loss.svg)
-Loss graph of two large scale chains and eight small scale chains. Large scale chains ran for 7 million iterations and small scale chains ran for 100K iterations. Dotted red line shows BedMachine3's loss [4].
+Loss graph of two large scale chains and eight small scale chains. Large scale chains ran for 7 million iterations and small scale chains ran for 100K iterations. Dotted red line shows BedMachine3's loss [4]. Initial SGS loss was 2.632e6 and peak small scale chain output loss is 1.540e6 (trial_21 loss). BedMachine3 loss is 8.115e5; however, neither the large or small scale chains fully converge due to the enormous time required to accomplish this (at least 30M+ iterations). Additionally, changes in study region area and/or during data preparation could be made to reduce number of iterations needed for full convergence.
 
 
 # Installation
