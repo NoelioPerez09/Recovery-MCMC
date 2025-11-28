@@ -69,7 +69,7 @@ depending on your local environment. The previous execution times are according 
 
 ## Acknowledgments
 Original MCMC method creator: [Niya Shao](https://github.com/NiyaShao/geostatisticalMCMC) and MCMC paper [3].
-![Glaciology Logo](extras/gator_lab.png | width=150)
+![Glaciology Logo](extras/gator_lab.png)
 
 ## Sources
 1. MacKie, E., Field, M., Wang, L., Schoedl, N., & Hibbs, M. (2022). GStatSim. Sequential Gaussian Simulation. https://gatorglaciology.github.io/gstatsimbook/4_Sequential_Gaussian_Simulation.html
