@@ -59,10 +59,10 @@ are the large scale chains and the ```trial_11```, ```trial_12```, ... , ```tria
 # Tutorial & Reproducibility
 Jupyter notebooks (```.ipynb``` files) are order 1-5 to show the order to run to replicate results. Simply follow the instructions of each notebook and change the directories appropriately
 depending on your local environment. The previous execution times are according to my own specs are specific times could vary significally depending on your computer specs. My computer specs:
-CPU: AMD Ryzen 7 9800X3D, 8 Cores, 16 Threads, 5.2 GHz
-RAM: 64 GB DDR5 6000 MT/s CL30
-SSD: Samsung 990 EVO Plus
-OS: Ubuntu 24.04.3 LTS
+* CPU: AMD Ryzen 7 9800X3D, 8 Cores, 16 Threads, 5.2 GHz
+* RAM: 64 GB DDR5 6000 MT/s CL30
+* SSD: Samsung 990 EVO Plus
+* OS: Ubuntu 24.04.3 LTS
 
 ## Poster
 ![Full Poster](./figures/poster.png)
